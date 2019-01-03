@@ -24,6 +24,7 @@
 													<tr>
 														<th>公司名称</th>
 														<th>法人</th>
+														<th>公司情况</th>
 														<th>联系方式</th>
 														<th>地址</th>
 														<th>网络情况</th>
@@ -36,6 +37,7 @@
 													<tr>
 														<td><a href="/admin/clients/show/id/{$client.client_id}">{$client.companyname}</td>
 														<td><a class="editable" href="#" id="faren" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="textarea" data-value="{$client.faren}"></a></td>
+														<td><a class="editable" href="#" id="profile" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="textarea" data-value="{$client.profile}"></a></td>														
 														<td><a class="editable" href="#" id="clientcontact" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="textarea" data-value="{$client.clientcontact}"></a></td>
 														<td><a class="editable" href="#" id="address" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="textarea" data-value="{$client.address}"></a></td>
 														<td><a class="editable" href="#" id="netsituation" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="textarea" data-value="{$client.netsituation}" data-emptytext="没有数据">{$client.netsituation}</a></td>
