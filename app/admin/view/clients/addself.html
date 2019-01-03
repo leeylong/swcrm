@@ -1,0 +1,99 @@
+{include file="public/header"}
+		<!-- MAIN -->
+		<div class="main">
+			<!-- MAIN CONTENT -->
+			<div class="main-content">
+				<div class="container-fluid">
+					<!-- OVERVIEW -->
+					<div class="panel panel-headline">
+						<div class="panel-heading">
+							<h3 class="panel-title">客户管理-我添加的客户</h3>
+							<p class="panel-subtitle">今天是: {:date("Y-m-d")}</p>
+						</div>
+						<div class="panel-body">
+							<div class="row">
+								<div class="col-md-12">
+									<!-- 客户列表开始 -->
+									<div class="panel">
+										<div class="panel-heading">
+											<h3 class="panel-title">客户列表</h3>
+										</div>
+										<div class="panel-body">
+											<table class="table table-striped">
+												<thead>
+													<tr>
+														<th>公司名称</th>
+														<th>法人</th>
+														<th>公司情况</th>
+														<th>联系方式</th>
+														<th>地址</th>
+														<th>网络情况</th>
+														<th>跟进情况</th>
+														<th>操作</th>
+													</tr>
+												</thead>
+												<tbody>
+{foreach name="client_list" item="client"}
+													<tr>
+														<td><a href="/admin/clients/show/id/{$client.client_id}">{$client.companyname}</td>
+														<td><a class="editable" href="#" id="faren" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="textarea" data-value="{$client.faren}"></a></td>
+														<td><a class="editable" href="#" id="profile" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="textarea" data-value="{$client.profile}"></a></td>
+														<td><a class="editable" href="#" id="clientcontact" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="textarea" data-value="{$client.clientcontact}"></a></td>
+														<td><a class="editable" href="#" id="address" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="textarea" data-value="{$client.address}"></a></td>
+														<td><a class="editable" href="#" id="netsituation" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="textarea" data-value="{$client.netsituation}" data-emptytext="没有数据">{$client.netsituation}</a></td>
+														<td>{$client.lastMessage}<br />[<a href="javascript:alert(123);">查看更多</a>]</td>
+														<td><a class="editable-handle" href="#" id="status" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="select"><span class="lnr lnr-pencil"></span></a></td>
+													</tr>
+{/foreach}
+												</tbody>
+											</table>
+											<div class="pages">
+												{$pages}
+											</div>
+{include file="public/common"}
+										</div>
+									</div>
+								</div>
+								<!-- 客户列表结束 -->
+							</div>
+						</div>
+					</div>
+					<!-- END OVERVIEW -->
+				</div>
+			</div>
+			<!-- END MAIN CONTENT -->
+		</div>
+		<!-- END MAIN -->
+		<div class="clearfix"></div>
+		<footer>
+			<div class="container-fluid">
+				<p class="copyright">&copy; {:date("Y");} <a href="http://www.dayu.co/" target="_blank">大宇网络</a>. All Rights Reserved. </p>
+			</div>
+		</footer>
+	</div>
+	<!-- END WRAPPER -->
+		<!-- 表格实时编辑 -->
+<script>
+	$(function () {
+		// $.fn.editable.defaults.mode = 'inline';  变为行内编辑
+		$('.editable').editable();
+		$('.editable-select').editable({
+			source: [
+              {value: 0, text: '☆'},
+              {value: 1, text: '★'},
+              {value: 2, text: '★★'},
+              {value: 3, text: '★★★'},
+              {value: 4, text: '★★★★'},
+              {value: 5, text: '★★★★★'}
+           ]
+		});
+		$('.editable-handle').editable({
+			source: [
+              {value: 0, text: '公海'},
+              {value: 1, text: '私海'}
+           ]
+		});
+	});
+</script>
+{include file="public/foot"}
+

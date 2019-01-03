@@ -1,0 +1,38 @@
+<?php
+    $areas = config('area');
+?>
+<div class="function">
+    <button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#addnewcli">新增客户</button>
+</div>
+<!-- 新增客户功能区开始 -->
+<div class="function-rel">
+    <!-- Modal -->
+        <div class="modal fade" id="addnewcli" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">新增客户</h4>
+                </div>
+                <form action="{:url("Clients/add")}" method="post">
+                <div class="modal-body">
+                        <div class="form-group">
+                            <label for="InputCompany1">公司名称</label>
+                            <input id="companyname" type="text" class="form-control" name="companyname" id="InputCompany1" placeholder="公司名称">
+                        </div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="sumbit" class="btn btn-primary">保存</button>
+                </div>
+                </form>
+            </div>
+        </div>
+</div>
+<!-- 新增客户功能区结束 -->
+
+<script>
+    var SCOPE = {
+        'check_url' : '{:url("clients/checkData")}',
+    }
+</script>
