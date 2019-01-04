@@ -1,40 +1,26 @@
 <?php
     $areas = config('area');
 ?>
-<div class="function">
-    <button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#addnewcli">新增客户</button>
-</div>
 <!-- 新增客户功能区开始 -->
-<div class="function-rel">
-    <!-- Modal -->
-        <div class="modal fade" id="addnewcli" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">新增客户</h4>
-                </div>
-                <form action="{:url("Clients/add")}" method="post">
-                <div class="modal-body">
-                        <div class="form-group">
-                            <label for="InputCompany1">公司名称</label>
-                            <input id="companyname" type="text" class="form-control" name="companyname" id="InputCompany1" placeholder="公司名称">
-                        </div>
-                </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
-                <button type="sumbit" class="btn btn-primary">保存</button>
-                </div>
-                </form>
-            </div>
-        </div>
-</div>
+                            <div class="" style="padding-top: 24px;padding-bottom: 24px;">
+                                <form id="dayu-form" class="form-inline" action="{:url("Clients/add")}">
+                                  <div class="form-group">
+                                    <label for="companyname">添加客户：</label>
+                                    <input type="text" name="companyname" class="form-control" id="companyname" placeholder="请输入">
+                                  </div>
+                                  <button type="button" id="dayu-button-submit" class="btn btn-default">提交</button>
+                                </form>
+                            </div>
+                            <div>
+                                检索到{$count}条数据。
+                            </div>
 <!-- 新增客户功能区结束 -->
 
 <script>
     var SCOPE = {
         'check_url' : '{:url("clients/checkData")}',
-        'update_url': '{:url("clients/updateDataByid")}'
+        'update_url': '{:url("clients/updateDataByid")}',
+        'save_url'  : '{:url("clients/add")}'
     }
 </script>
 

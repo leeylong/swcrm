@@ -19,6 +19,20 @@
 											<h3 class="panel-title">客户列表</h3>
 										</div>
 										<div class="panel-body">
+											<div class="select">
+													<form class="form-inline" id="" action="{:url("clients/addself")}" method="get">
+														<div class="form-group">
+															<label for="exampleInputName2">客户名称：</label>
+															<input type="text" name="companyname" class="form-control" id="exampleInputName2" placeholder="可模糊查询" value="">
+														</div>
+														<div class="form-group">
+																<label for="exampleInputEmail3">某月添加的客户</label>
+																<input type="text" class="form-control selectTime" name="addtime" placeholder="请直接鼠标点击选择性" id="exampleInputEmail3" value="" autocomplete="off" disableautocomplete />
+														</div>
+														<button style="margin-left: 16px;" type="submit" class="btn btn-default">查找客户</button>
+													</form>
+												</div>
+{include file="public/common"}
 											<table class="table table-striped">
 												<thead>
 													<tr>
@@ -43,7 +57,7 @@
 														<td><a class="editable" href="#" id="netsituation" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="textarea" data-value="{$client.netsituation}" data-emptytext="没有数据">{$client.netsituation}</a></td>									
 														<td><a class="editable" href="#" id="content" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/insertMes")}" data-type="textarea" data-value="" data-emptytext="没有数据">{$client.lastMessage}</a></td>
 														<td>
-															<a href="javascript:void(0);" attr-status="1" class="handlePosi" attr-id="{$client.client_id}">放入私海</a>
+															<a href="javascript:void(0);" attr-status="1" class="handlePosi" attr-id="{$client.client_id}">入私海</a>
 														</td>
 													</tr>
 {/foreach}
@@ -52,7 +66,6 @@
 											<div class="pages">
 												{$pages}
 											</div>
-{include file="public/common"}
 										</div>
 									</div>
 								</div>

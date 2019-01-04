@@ -40,6 +40,7 @@ class Clients extends Base
         ->order('tuijian desc,updatetime desc,client_id desc')
         ->paginate(15);//获取本页数据
 
+        $count = $clients->where($condition)->count();//获取数据总数
         // dump($clients::getLastSql());
         foreach($list as $k=>$val){
             $mes = $val->messages()->order('updatetime desc')->find();
@@ -51,7 +52,8 @@ class Clients extends Base
         return $view->fetch('',[
             'client_list'     =>   $list,
             'pages'           =>   $page,
-            'condition'       =>   $condition
+            'condition'       =>   $condition,
+            'count'          =>   $count
         ]);
     }
 
@@ -73,16 +75,21 @@ class Clients extends Base
     /**
      * 我添加的客户页面
      */
-    public function addself(){
+    public function addself(Request $request){
         $condition = [];
         $condition['adder']           = ['eq',Session::get('adminUser.admin_id')];
         $condition['followsituation'] = 0;
         $condition['status']           = ['eq',0];
+        //get搜索条件
+        if($request->param('companyname')){
+            $condition['companyname'] = ['like','%'.trim($request->param('companyname')).'%'];
+        }
 
         $clients = new ClientsModel;
         $clients_list = $clients->all();
 
         $list = $clients->where($condition)->order('client_id desc')->paginate(30);//获取本页数据
+        $count = $clients->where($condition)->count();//获取数据总数
         foreach($list as $k=>$val){
             $mes = $val->messages()->order('updatetime desc')->find();
             $list[$k]['lastMessage'] = $mes['content'] ? $mes['content'] : '无';
@@ -93,7 +100,8 @@ class Clients extends Base
         $view = new View;
         return $view->fetch('',[
             'client_list'     =>   $list,
-            'pages'           =>   $page
+            'pages'           =>   $page,
+            'count'          =>   $count
         ]);
     }
 
@@ -102,11 +110,16 @@ class Clients extends Base
      * 要展示的信息：followsituation为0、status不为-1,private为0
      * 
      */
-    public function gonghai(){
+    public function gonghai(Request $request){
         $condition = [];
         $condition['followsituation'] = ['eq',0];
         $condition['private'] = ['eq',0];
         $condition['status'] = ['eq',1];
+
+        //get搜索条件
+        if($request->param('companyname')){
+            $condition['companyname'] = ['like','%'.trim($request->param('companyname')).'%'];
+        }
 
         // dump(Session::get('adminUser'));exit;
 
@@ -114,6 +127,7 @@ class Clients extends Base
         $clients_list = $clients->all();
 
         $list = $clients->where($condition)->order('updatetime desc,client_id desc')->paginate(15);//获取本页数据
+        $count = $clients->where($condition)->count();//获取数据总数
         foreach($list as $k=>$val){
             $mes = $val->messages()->order('updatetime desc')->find();
             $list[$k]['lastMessage'] = $mes['content'] ? $mes['content'] : '无';
@@ -124,7 +138,8 @@ class Clients extends Base
         $view = new View;
         return $view->fetch('',[
             'client_list'     =>   $list,
-            'pages'           =>   $page
+            'pages'           =>   $page,
+            'count'          =>   $count
         ]);
     }
 
@@ -205,7 +220,12 @@ class Clients extends Base
         if($request->param("companyname")){
             $data['companyname'] = $request->param("companyname");
         }else{
-            $this->error("没有填入公司名称",$request->server("HTTP_REFERER"));
+            return show(0,'请填写客户名称');
+        }
+
+        $ret = $this->checkdata($data['companyname']);
+        if(!$ret){
+            return show(0,'公司名称存在或非法！');
         }
 
         $data['adder'] = Session::get('adminUser.admin_id');
@@ -216,9 +236,9 @@ class Clients extends Base
 
         $ret = $client->save($data);
         if($ret){
-            $this->success("新增成功",$request->server("HTTP_REFERER"));
+            return show(1,'新增成功');
         }else{
-            $this->error("新增成功",$request->server("HTTP_REFERER"));
+            return show(0,'新增失败');
         }
     }
 
@@ -350,14 +370,19 @@ class Clients extends Base
     /**
      * 数据监测
      */
-    public function checkdata(Request $request){
-        $data = $request->post();
+    public function checkdata($companyname=''){
+        if($companyname){
+            $data['companyname'] = $companyname;
+        }else{
+            return false;
+        }
+
         $clients = new ClientsModel;
         $clientsList = $clients->where($data)->select();
 
-        if($clientsList){//如果公司名称为空或者找到了对应的公司名称则返回错误信息
-            return show(0,'公司名称已存在');
+        if($clientsList){
+            return false;//如果查到了相关客户则表明不能录入故返回false 
         }
-        return show(1,'公司名称可用');
+        return true;
     }
 }
