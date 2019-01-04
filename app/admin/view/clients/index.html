@@ -50,14 +50,14 @@
 												<tbody>
 {foreach name="client_list" item="client"}
 													<tr>
-														<td><a href="#" id="tuijian" data-type="select" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" class="editable-select" data-title="客户意向" data-value="{$client.tuijian}">{$client.client_mind}</a></td>
-														<td><a href="/admin/clients/show/id/{$client.client_id}">{$client.companyname}</td>
-														<td><a class="editable" href="#" id="faren" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="textarea" data-value="{$client.faren}"></a></td>
-														<td><a class="editable" href="#" id="profile" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="textarea" data-value="{$client.profile}"></a></td>
-														<td><a class="editable" href="#" id="clientcontact" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="textarea" data-value="{$client.clientcontact}"></a></td>
-														<td><a class="editable" href="#" id="address" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="textarea" data-value="{$client.address}"></a></td>
-														<td><a class="editable" href="#" id="netsituation" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="textarea" data-value="{$client.netsituation}" data-emptytext="没有数据">{$client.netsituation}</a></td>
-														<td><a class="editable" href="#" id="content" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/insertMes")}" data-type="textarea" data-value="" data-emptytext="没有数据">{$client.lastMessage}</a></td>
+														<td class="mes-short"><div><a href="#" id="tuijian" data-type="select" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" class="editable-select" data-title="客户意向" data-value="{$client.tuijian}">{$client.client_mind}</a></div></td>
+														<td class="mes-middle"><a href="/admin/clients/show/id/{$client.client_id}">{$client.companyname}</td>
+														<td class="mes-short"><a class="editable" href="#" id="faren" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="textarea" data-value="{$client.faren}"></a></td>
+														<td class="mes-lang"><a class="editable" href="#" id="profile" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="textarea" data-value="{$client.profile}"></a></td>
+														<td class="mes-middle"><a class="editable" href="#" id="clientcontact" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="textarea" data-value="{$client.clientcontact}"></a></td>
+														<td class="mes-middle"><a class="editable" href="#" id="address" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="textarea" data-value="{$client.address}"></a></td>
+														<td class="mes-lang"><a class="editable" href="#" id="netsituation" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="textarea" data-value="{$client.netsituation}" data-emptytext="没有数据">{$client.netsituation}</a></td>
+														<td class="mes-lang"><a class="editable" href="#" id="content" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/insertMes")}" data-type="textarea" data-value="" data-emptytext="没有数据">{$client.lastMessage}</a></td>
 														<td>
 															<a href="javascript:void(0);" attr-status="0" class="handlePosi" attr-id="{$client.client_id}">入公海</a>
 														</td>
