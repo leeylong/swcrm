@@ -62,7 +62,7 @@
 														<td><a class="editable" href="#" id="netsituation" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="textarea" data-value="{$client.netsituation}" data-emptytext="没有数据">{$client.netsituation}</a></td>
 														<td><a class="editable" href="#" id="content" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/insertMes")}" data-type="textarea" data-value="" data-emptytext="没有数据">{$client.lastMessage}</a></td>
 														<td>
-															<a href="javascript:void(0);" class="handlePosi" attr-id="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" >放入公海</a>
+															<a href="javascript:void(0);" attr-status="0" class="handlePosi" attr-id="{$client.client_id}">放入公海</a>
 														</td>
 													</tr>
 {/foreach}
@@ -94,7 +94,7 @@
 		</footer>
 	</div>
 	<!-- END WRAPPER -->
-		<!-- 表格实时编辑 -->
+		<!-- 表格实时编辑  -->
 <script>
 	$(function () {
 		// $.fn.editable.defaults.mode = 'inline';  变为行内编辑
@@ -164,8 +164,4 @@ var clientAdd = new Vue({
 	}
 })
 </script>
-<script>
-	
-</script>
 {include file="public/foot"}
-

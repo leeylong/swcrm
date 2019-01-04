@@ -1,0 +1,1799 @@
+---------------------------------------------------------------
+[ 2018-12-21T06:07:14+08:00 ] 36.110.199.169 GET swcrm.chinab2b.cc/assets/img/login-bg.jpg
+[运行时间：0.899734s] [吞吐率：1.11req/s] [内存消耗：1,939.97kb] [文件加载：38]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'login-bg.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:12:44+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/
+[运行时间：0.926361s] [吞吐率：1.08req/s] [内存消耗：2,340.26kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:12:47+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/Admin/login/index.html
+[运行时间：0.108442s] [吞吐率：9.22req/s] [内存消耗：2,443.45kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/wwwroot/webli/swcrm/app/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:12:47+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/assets/img/login-bg.jpg
+[运行时间：0.098276s] [吞吐率：10.18req/s] [内存消耗：1,941.74kb] [文件加载：38]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'login-bg.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/static/css/main.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:18:06+08:00 ] 122.4.203.37 POST swcrm.chinab2b.cc/admin/login/check
+[运行时间：0.709908s] [吞吐率：1.41req/s] [内存消耗：3,548.89kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://swcrm.chinab2b.cc',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'referer' => 'http://swcrm.chinab2b.cc/Admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '30',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'fanbin',
+  'password' => 'fb123',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ /www/wwwroot/webli/swcrm/app/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:18:08+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/index
+[运行时间：0.128253s] [吞吐率：7.80req/s] [内存消耗：3,004.26kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/Admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/wwwroot/webli/swcrm/app/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:18:11+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients.html
+[运行时间：0.222579s] [吞吐率：4.49req/s] [内存消耗：4,185.13kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+  2 => 'condition',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:18:16+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients.html?page=11
+[运行时间：0.072050s] [吞吐率：13.88req/s] [内存消耗：4,178.87kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/Clients.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '11',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+  2 => 'condition',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:18:18+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients.html?page=7
+[运行时间：0.075681s] [吞吐率：13.21req/s] [内存消耗：4,187.23kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/Clients.html?page=11',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '7',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+  2 => 'condition',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:18:21+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients.html?page=4
+[运行时间：0.087169s] [吞吐率：11.47req/s] [内存消耗：4,184.87kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/Clients.html?page=7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '4',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+  2 => 'condition',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:18:23+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients.html?page=3
+[运行时间：0.083767s] [吞吐率：11.94req/s] [内存消耗：4,186.16kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/Clients.html?page=4',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+  2 => 'condition',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:18:26+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients/addself.html
+[运行时间：0.457564s] [吞吐率：2.19req/s] [内存消耗：5,172.84kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => 'addself',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/Clients.html?page=3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->addself[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/addself.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:19:17+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients/addself.html?page=27
+[运行时间：0.416614s] [吞吐率：2.40req/s] [内存消耗：5,164.95kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => 'addself',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/Clients/addself.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '27',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->addself[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/addself.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:19:31+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients/addself.html
+[运行时间：0.418336s] [吞吐率：2.39req/s] [内存消耗：5,172.73kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => 'addself',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/Clients/addself.html?page=27',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->addself[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/addself.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:19:34+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients.html
+[运行时间：0.063081s] [吞吐率：15.85req/s] [内存消耗：4,185.32kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/Clients/addself.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+  2 => 'condition',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:19:36+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/clients/index.html?companyname=%E5%B1%B1%E4%B8%9C%E6%96%B0%E5%92%8C%E7%9B%9B%E5%86%9C%E7%89%A7%E9%9B%86%E5%9B%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&addtime=
+[运行时间：0.081500s] [吞吐率：12.27req/s] [内存消耗：4,166.92kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'clients',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/Clients.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'companyname' => '山东新和盛农牧集团有限公司',
+  'addtime' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+  2 => 'condition',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:19:39+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients.html
+[运行时间：0.110062s] [吞吐率：9.09req/s] [内存消耗：4,185.56kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/clients/index.html?companyname=%E5%B1%B1%E4%B8%9C%E6%96%B0%E5%92%8C%E7%9B%9B%E5%86%9C%E7%89%A7%E9%9B%86%E5%9B%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&addtime=',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+  2 => 'condition',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:19:42+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients.html?page=11
+[运行时间：0.088832s] [吞吐率：11.26req/s] [内存消耗：4,178.87kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/Clients.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '11',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+  2 => 'condition',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:19:51+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients.html?page=1
+[运行时间：0.066291s] [吞吐率：15.08req/s] [内存消耗：4,185.59kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/Clients.html?page=11',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+  2 => 'condition',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:20:06+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/clients/index.html?companyname=%E5%AF%BF%E5%85%89%E5%B8%82%E6%B3%B0%E5%92%8C%E5%86%9C%E5%86%9C%E4%B8%9A%E6%8A%80%E6%9C%AF%E6%9C%8D%E5%8A%A1%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&addtime=
+[运行时间：0.065506s] [吞吐率：15.27req/s] [内存消耗：4,167.27kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'clients',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/Clients.html?page=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'companyname' => '寿光市泰和农农业技术服务有限公司',
+  'addtime' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+  2 => 'condition',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:20:10+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/static/img/loading.gif
+[运行时间：0.029313s] [吞吐率：34.11req/s] [内存消耗：1,941.97kb] [文件加载：38]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'img',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/static/editable/x-editable.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:20:24+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients/gonghai.html
+[运行时间：0.474513s] [吞吐率：2.11req/s] [内存消耗：5,152.84kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => 'gonghai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/clients/index.html?companyname=%E5%AF%BF%E5%85%89%E5%B8%82%E6%B3%B0%E5%92%8C%E5%86%9C%E5%86%9C%E4%B8%9A%E6%8A%80%E6%9C%AF%E6%9C%8D%E5%8A%A1%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&addtime=',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->gonghai[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/gonghai.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:20:28+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients/addself.html
+[运行时间：0.463341s] [吞吐率：2.16req/s] [内存消耗：5,172.47kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => 'addself',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/Clients/gonghai.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->addself[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/addself.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:27:06+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients/gonghai.html
+[运行时间：0.426332s] [吞吐率：2.35req/s] [内存消耗：5,153.08kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => 'gonghai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/Clients/addself.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->gonghai[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/gonghai.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:27:18+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients/gonghai.html?page=4
+[运行时间：0.456600s] [吞吐率：2.19req/s] [内存消耗：5,153.20kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => 'gonghai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/Clients/gonghai.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '4',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->gonghai[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/gonghai.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:30:10+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients/gonghai.html?page=4
+[运行时间：0.468165s] [吞吐率：2.14req/s] [内存消耗：5,482.57kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => 'gonghai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/Clients/gonghai.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '4',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->gonghai[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/gonghai.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:32:34+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients/gonghai.html?page=4
+[运行时间：0.430392s] [吞吐率：2.32req/s] [内存消耗：5,153.17kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => 'gonghai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/Clients/gonghai.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '4',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->gonghai[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/gonghai.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:32:39+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients.html
+[运行时间：0.075771s] [吞吐率：13.20req/s] [内存消耗：4,534.91kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/Clients/gonghai.html?page=4',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+  2 => 'condition',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:32:42+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/static/img/loading.gif
+[运行时间：0.028452s] [吞吐率：35.15req/s] [内存消耗：1,941.97kb] [文件加载：38]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'img',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/static/editable/x-editable.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:32:42+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/static/img/clear.png
+[运行时间：0.026468s] [吞吐率：37.78req/s] [内存消耗：1,941.98kb] [文件加载：38]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'img',
+    2 => 'clear.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/static/editable/x-editable.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:32:56+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients.html
+[运行时间：0.072340s] [吞吐率：13.82req/s] [内存消耗：4,535.13kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/Clients/gonghai.html?page=4',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+  2 => 'condition',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:32:58+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/static/img/loading.gif
+[运行时间：0.027779s] [吞吐率：36.00req/s] [内存消耗：1,941.97kb] [文件加载：38]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'img',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/static/editable/x-editable.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:34:45+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients.html?page=11
+[运行时间：0.088548s] [吞吐率：11.29req/s] [内存消耗：4,178.88kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/Clients.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '11',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+  2 => 'condition',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:34:49+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients/addself.html
+[运行时间：0.452998s] [吞吐率：2.21req/s] [内存消耗：5,623.69kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => 'addself',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/Clients.html?page=11',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->addself[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/addself.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:42:32+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients/gonghai.html
+[运行时间：0.446834s] [吞吐率：2.24req/s] [内存消耗：5,153.08kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => 'gonghai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/Clients/addself.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->gonghai[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/gonghai.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:44:03+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients.html
+[运行时间：0.069646s] [吞吐率：14.36req/s] [内存消耗：4,187.20kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/Clients/gonghai.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+  2 => 'condition',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:44:05+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients.html
+[运行时间：0.074991s] [吞吐率：13.33req/s] [内存消耗：4,186.90kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+  2 => 'condition',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:48:36+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/
+[运行时间：0.035103s] [吞吐率：28.49req/s] [内存消耗：2,766.54kb] [文件加载：47]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/wwwroot/webli/swcrm/app/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:48:51+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/
+[运行时间：0.032644s] [吞吐率：30.63req/s] [内存消耗：2,766.54kb] [文件加载：47]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/wwwroot/webli/swcrm/app/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:48:56+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients/gonghai.html
+[运行时间：0.399685s] [吞吐率：2.50req/s] [内存消耗：54,426.93kb] [文件加载：58]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => 'gonghai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->gonghai[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method think\paginator\driver\Bootstrap::getLastSql()[/www/wwwroot/webli/swcrm/app/admin/controller/Clients.php:121]
+---------------------------------------------------------------
+[ 2018-12-21T17:49:13+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients/gonghai.html
+[运行时间：0.427511s] [吞吐率：2.34req/s] [内存消耗：5,154.84kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => 'gonghai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->gonghai[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/gonghai.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:49:21+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients/gonghai.html
+[运行时间：0.436987s] [吞吐率：2.29req/s] [内存消耗：5,153.80kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => 'gonghai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->gonghai[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/gonghai.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:49:22+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients/gonghai.html
+[运行时间：0.471715s] [吞吐率：2.12req/s] [内存消耗：5,154.84kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => 'gonghai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->gonghai[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/gonghai.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:49:25+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients/gonghai.html
+[运行时间：0.488288s] [吞吐率：2.05req/s] [内存消耗：5,155.11kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => 'gonghai',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->gonghai[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/gonghai.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-21T17:50:33+08:00 ] 122.4.203.37 GET swcrm.chinab2b.cc/admin/Clients/addself.html
+[运行时间：0.469630s] [吞吐率：2.13req/s] [内存消耗：5,174.95kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/webli/swcrm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => 'addself',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'swcrm.chinab2b.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://swcrm.chinab2b.cc/admin/Clients/gonghai.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; UM_distinctid=166e2ef1b133ad-0b92a043d34cb3-8383268-1aeaa0-166e2ef1b161f7; security_session_verify=4aaa1b9da2d74dd22a4d84bf06b7925c; PHPSESSID=nqqnt243vdq5uip9ptfoogd1k3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->addself[ /www/wwwroot/webli/swcrm/app/admin/controller/Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/webli/swcrm/public/../app/admin/view/clients/addself.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File

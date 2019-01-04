@@ -41,8 +41,10 @@
 														<td><a class="editable" href="#" id="clientcontact" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="textarea" data-value="{$client.clientcontact}"></a></td>
 														<td><a class="editable" href="#" id="address" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="textarea" data-value="{$client.address}"></a></td>
 														<td><a class="editable" href="#" id="netsituation" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="textarea" data-value="{$client.netsituation}" data-emptytext="没有数据">{$client.netsituation}</a></td>
-														<td>{$client.lastMessage}<br />[<a href="javascript:alert(123);">查看更多</a>]</td>
-														<td><a class="editable-handle" href="#" id="status" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/updateByid")}" data-type="select"><span class="lnr lnr-pencil"></span></a></td>
+														<td><a class="editable" href="#" id="content" data-pk="{$client.client_id}" data-url="{:url("/admin/clients/insertMes")}" data-type="textarea" data-value="" data-emptytext="没有数据">{$client.lastMessage}</a></td>
+														<td>
+															<a href="javascript:void(0);" attr-status="1" class="handlePosi" attr-id="{$client.client_id}">放入私海</a>
+														</td>
 													</tr>
 {/foreach}
 												</tbody>

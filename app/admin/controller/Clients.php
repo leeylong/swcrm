@@ -84,7 +84,7 @@ class Clients extends Base
 
         $list = $clients->where($condition)->order('client_id desc')->paginate(30);//获取本页数据
         foreach($list as $k=>$val){
-            $mes = $val->messages()->order('updatetime')->find();
+            $mes = $val->messages()->order('updatetime desc')->find();
             $list[$k]['lastMessage'] = $mes['content'] ? $mes['content'] : '无';
         }
         $page = $list->render();//获取分页代码
@@ -115,11 +115,12 @@ class Clients extends Base
 
         $list = $clients->where($condition)->order('updatetime desc,client_id desc')->paginate(15);//获取本页数据
         foreach($list as $k=>$val){
-            $mes = $val->messages()->order('updatetime')->find();
+            $mes = $val->messages()->order('updatetime desc')->find();
             $list[$k]['lastMessage'] = $mes['content'] ? $mes['content'] : '无';
         }
         $page = $list->render();//获取分页代码
         // dump($clients::getLastSql());
+
         $view = new View;
         return $view->fetch('',[
             'client_list'     =>   $list,
@@ -168,6 +169,8 @@ class Clients extends Base
     }
 
     public function updateByid($id=0,$data=array()){
+        // print_r($_POST);exit;
+
         if(!$id && !$_POST['pk']){
             return show(0,'ID非法');
         }
@@ -271,6 +274,30 @@ class Clients extends Base
         // dump($ret);
 
         $this->success('留言成功',$request->server("HTTP_REFERER"));
+    }
+
+
+    /**
+     * 根据id更改信息
+     */
+
+    public function updateDataByid(){
+        $data = $_POST;
+        if(!$data['id']){
+            return show(0,'ID非法');
+        }
+
+        $id = $data['id'];
+        unset($data['id']);
+
+
+        $ret = $this->setClientStatus($id,$data);
+
+        if($ret == true){
+            return show(1,'操作成功');
+        }else{
+            return show(0,'操作失败');
+        }
     }
 
     /**

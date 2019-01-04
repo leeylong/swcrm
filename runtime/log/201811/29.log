@@ -1,0 +1,1265 @@
+---------------------------------------------------------------
+[ 2018-11-29T10:44:01+08:00 ] 127.0.0.1 GET www.swcrm.com/admin
+[运行时间：0.246345s] [吞吐率：4.06req/s] [内存消耗：3,248.96kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'purpose' => 'prefetch',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=928733184',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] D:\wamp64\www\swcrm\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T10:44:02+08:00 ] 127.0.0.1 GET www.swcrm.com/admin
+[运行时间：0.269001s] [吞吐率：3.72req/s] [内存消耗：3,248.55kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] D:\wamp64\www\swcrm\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T10:44:06+08:00 ] 127.0.0.1 GET www.swcrm.com/Admin/login/index.html
+[运行时间：0.135433s] [吞吐率：7.38req/s] [内存消耗：3,122.47kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.swcrm.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\wamp64\www\swcrm\app\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\wamp64\www\swcrm\public/../app/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T10:44:07+08:00 ] 127.0.0.1 GET www.swcrm.com/assets/img/login-bg.jpg
+[运行时间：0.154955s] [吞吐率：6.45req/s] [内存消耗：2,663.64kb] [文件加载：38]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'img',
+    2 => 'login-bg.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.swcrm.com/static/css/main.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T10:44:17+08:00 ] 127.0.0.1 POST www.swcrm.com/admin/login/check
+[运行时间：0.165968s] [吞吐率：6.03req/s] [内存消耗：4,876.14kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.swcrm.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.swcrm.com/Admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'fanbin',
+  'password' => 'fb123',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\wamp64\www\swcrm\app\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T10:44:18+08:00 ] 127.0.0.1 GET www.swcrm.com/admin/index
+[运行时间：0.143658s] [吞吐率：6.96req/s] [内存消耗：3,848.34kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.swcrm.com/Admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp64\www\swcrm\app\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\swcrm\public/../app/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T10:44:22+08:00 ] 127.0.0.1 GET www.swcrm.com/admin/Clients.html
+[运行时间：0.415138s] [吞吐率：2.41req/s] [内存消耗：5,832.84kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.swcrm.com/admin/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ D:\wamp64\www\swcrm\app\admin\controller\Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\swcrm\public/../app/admin\view\clients\index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T10:44:35+08:00 ] 127.0.0.1 GET www.swcrm.com/admin.html
+[运行时间：0.161312s] [吞吐率：6.20req/s] [内存消耗：3,848.47kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.swcrm.com/admin/Clients.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp64\www\swcrm\app\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\swcrm\public/../app/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T10:44:38+08:00 ] 127.0.0.1 GET www.swcrm.com/admin/Clients.html
+[运行时间：0.336783s] [吞吐率：2.97req/s] [内存消耗：5,832.48kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Clients',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.swcrm.com/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ D:\wamp64\www\swcrm\app\admin\controller\Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\swcrm\public/../app/admin\view\clients\index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T10:44:44+08:00 ] 127.0.0.1 POST www.swcrm.com/admin/clients/checkdata.html
+[运行时间：0.259231s] [吞吐率：3.86req/s] [内存消耗：4,585.43kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'clients',
+    2 => 'checkdata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.swcrm.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.swcrm.com/admin/Clients.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'companyname' => '寿光',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->checkdata[ D:\wamp64\www\swcrm\app\admin\controller\Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T10:44:44+08:00 ] 127.0.0.1 GET www.swcrm.com/admin/clients/index.html?companyname=%E5%AF%BF%E5%85%89&adder=&addtime=
+[运行时间：0.442652s] [吞吐率：2.26req/s] [内存消耗：5,833.13kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'clients',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.swcrm.com/admin/Clients.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'companyname' => '寿光',
+  'adder' => '',
+  'addtime' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ D:\wamp64\www\swcrm\app\admin\controller\Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\swcrm\public/../app/admin\view\clients\index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T10:44:51+08:00 ] 127.0.0.1 POST www.swcrm.com/admin/clients/checkdata.html
+[运行时间：0.178877s] [吞吐率：5.59req/s] [内存消耗：4,585.80kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'clients',
+    2 => 'checkdata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'content-length' => '12',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.swcrm.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.swcrm.com/admin/clients/index.html?companyname=%E5%AF%BF%E5%85%89&adder=&addtime=',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'companyname' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->checkdata[ D:\wamp64\www\swcrm\app\admin\controller\Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T10:45:00+08:00 ] 127.0.0.1 GET www.swcrm.com/admin/clients/index.html?page=2
+[运行时间：0.340499s] [吞吐率：2.94req/s] [内存消耗：5,833.76kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'clients',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.swcrm.com/admin/clients/index.html?companyname=%E5%AF%BF%E5%85%89&adder=&addtime=',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ D:\wamp64\www\swcrm\app\admin\controller\Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\swcrm\public/../app/admin\view\clients\index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T10:45:06+08:00 ] 127.0.0.1 GET www.swcrm.com/admin/clients/index.html?page=6
+[运行时间：0.334668s] [吞吐率：2.99req/s] [内存消耗：5,834.07kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'clients',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.swcrm.com/admin/clients/index.html?page=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ D:\wamp64\www\swcrm\app\admin\controller\Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\swcrm\public/../app/admin\view\clients\index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T10:54:52+08:00 ] 127.0.0.1 GET www.swcrm.com/admin/clients/index.html?page=6
+[运行时间：0.403939s] [吞吐率：2.48req/s] [内存消耗：6,265.97kb] [文件加载：62]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'clients',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.swcrm.com/admin/clients/index.html?page=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ D:\wamp64\www\swcrm\app\admin\controller\Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\swcrm\public/../app/admin\view\clients\index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T10:55:00+08:00 ] 127.0.0.1 GET www.swcrm.com/static/vendor/chartist/js/chartist.min.js.map
+[运行时间：0.286821s] [吞吐率：3.49req/s] [内存消耗：2,663.48kb] [文件加载：38]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'vendor',
+    2 => 'chartist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'chartist.min.js.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T10:55:00+08:00 ] 127.0.0.1 GET www.swcrm.com/static/vendor/bootstrap/css/bootstrap.min.css.map
+[运行时间：0.157492s] [吞吐率：6.35req/s] [内存消耗：2,663.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'vendor',
+    2 => 'bootstrap',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T10:55:04+08:00 ] 127.0.0.1 GET www.swcrm.com/admin/clients/index.html?companyname=&addtime=2018-03-01
+[运行时间：0.307586s] [吞吐率：3.25req/s] [内存消耗：5,834.82kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'clients',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.swcrm.com/admin/clients/index.html?page=6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'companyname' => '',
+  'addtime' => '2018-03-01',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ D:\wamp64\www\swcrm\app\admin\controller\Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\swcrm\public/../app/admin\view\clients\index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T10:55:15+08:00 ] 127.0.0.1 POST www.swcrm.com/admin/clients/checkdata.html
+[运行时间：0.242393s] [吞吐率：4.13req/s] [内存消耗：4,587.23kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'clients',
+    2 => 'checkdata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.swcrm.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.swcrm.com/admin/clients/index.html?companyname=&addtime=2018-03-01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'companyname' => '寿光',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->checkdata[ D:\wamp64\www\swcrm\app\admin\controller\Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T10:55:15+08:00 ] 127.0.0.1 GET www.swcrm.com/admin/clients/index.html?companyname=%E5%AF%BF%E5%85%89&addtime=
+[运行时间：0.291204s] [吞吐率：3.43req/s] [内存消耗：5,548.65kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'clients',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.swcrm.com/admin/clients/index.html?companyname=&addtime=2018-03-01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'companyname' => '寿光',
+  'addtime' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ D:\wamp64\www\swcrm\app\admin\controller\Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\swcrm\public/../app/admin\view\clients\index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T10:55:21+08:00 ] 127.0.0.1 POST www.swcrm.com/admin/clients/checkdata.html
+[运行时间：0.206588s] [吞吐率：4.84req/s] [内存消耗：4,587.35kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'clients',
+    2 => 'checkdata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.swcrm.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.swcrm.com/admin/clients/index.html?companyname=%E5%AF%BF%E5%85%89&addtime=',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'companyname' => '寿光',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->checkdata[ D:\wamp64\www\swcrm\app\admin\controller\Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T10:55:21+08:00 ] 127.0.0.1 GET www.swcrm.com/admin/clients/index.html?companyname=%E5%AF%BF%E5%85%89&addtime=
+[运行时间：0.241731s] [吞吐率：4.14req/s] [内存消耗：5,548.30kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'clients',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.swcrm.com/admin/clients/index.html?companyname=%E5%AF%BF%E5%85%89&addtime=',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'companyname' => '寿光',
+  'addtime' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ D:\wamp64\www\swcrm\app\admin\controller\Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\swcrm\public/../app/admin\view\clients\index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T11:01:12+08:00 ] 127.0.0.1 GET www.swcrm.com/admin/clients/index.html?companyname=%E5%AF%BF%E5%85%89&addtime=
+[运行时间：0.228889s] [吞吐率：4.37req/s] [内存消耗：5,549.25kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'clients',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.swcrm.com/admin/clients/index.html?companyname=%E5%AF%BF%E5%85%89&addtime=',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'companyname' => '寿光',
+  'addtime' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ D:\wamp64\www\swcrm\app\admin\controller\Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\swcrm\public/../app/admin\view\clients\index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T11:06:38+08:00 ] 127.0.0.1 GET www.swcrm.com/admin/clients/index.html?companyname=%E5%AF%BF%E5%85%89&addtime=
+[运行时间：0.233623s] [吞吐率：4.28req/s] [内存消耗：5,549.25kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'clients',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.swcrm.com/admin/clients/index.html?companyname=%E5%AF%BF%E5%85%89&addtime=',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=1|3; thinkphp_show_page_trace=0|0; pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'companyname' => '寿光',
+  'addtime' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ D:\wamp64\www\swcrm\app\admin\controller\Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\swcrm\public/../app/admin\view\clients\index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T11:07:52+08:00 ] 127.0.0.1 GET www.swcrm.com/admin/clients/index.html?companyname=%E5%AF%BF%E5%85%89&addtime=
+[运行时间：0.183653s] [吞吐率：5.45req/s] [内存消耗：5,549.93kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'clients',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.swcrm.com/admin/clients/index.html?companyname=%E5%AF%BF%E5%85%89&addtime=',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=1|3; thinkphp_show_page_trace=0|0; pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'companyname' => '寿光',
+  'addtime' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ D:\wamp64\www\swcrm\app\admin\controller\Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\swcrm\public/../app/admin\view\clients\index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T11:07:57+08:00 ] 127.0.0.1 GET www.swcrm.com/admin/clients/index.html?companyname=%E5%AF%BF%E5%85%89&addtime=
+[运行时间：0.244624s] [吞吐率：4.09req/s] [内存消耗：5,548.86kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'clients',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=1|3; thinkphp_show_page_trace=0|0; pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'companyname' => '寿光',
+  'addtime' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ D:\wamp64\www\swcrm\app\admin\controller\Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\swcrm\public/../app/admin\view\clients\index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T11:08:08+08:00 ] 127.0.0.1 GET www.swcrm.com/admin/clients/index.html?companyname=%E5%AF%BF%E5%85%89&addtime=
+[运行时间：0.134783s] [吞吐率：7.42req/s] [内存消耗：4,809.66kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'clients',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.swcrm.com/admin/clients/index.html?companyname=%E5%AF%BF%E5%85%89&addtime=',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=1|3; thinkphp_show_page_trace=0|0; pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'companyname' => '寿光',
+  'addtime' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ D:\wamp64\www\swcrm\app\admin\controller\Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T11:08:11+08:00 ] 127.0.0.1 GET www.swcrm.com/admin/clients/index.html?companyname=%E5%AF%BF%E5%85%89&addtime=
+[运行时间：0.126837s] [吞吐率：7.88req/s] [内存消耗：4,808.84kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'clients',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=1|3; thinkphp_show_page_trace=0|0; pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'companyname' => '寿光',
+  'addtime' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ D:\wamp64\www\swcrm\app\admin\controller\Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T11:08:28+08:00 ] 127.0.0.1 GET www.swcrm.com/admin/clients/index.html?companyname=%E5%AF%BF%E5%85%89&addtime=
+[运行时间：0.166312s] [吞吐率：6.01req/s] [内存消耗：5,549.25kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'clients',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.swcrm.com/admin/clients/index.html?companyname=%E5%AF%BF%E5%85%89&addtime=',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=1|3; thinkphp_show_page_trace=0|0; pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'companyname' => '寿光',
+  'addtime' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ D:\wamp64\www\swcrm\app\admin\controller\Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\swcrm\public/../app/admin\view\clients\index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T11:09:47+08:00 ] 127.0.0.1 GET www.swcrm.com/admin/clients/index.html?companyname=%E5%AF%BF%E5%85%89&addtime=
+[运行时间：0.202157s] [吞吐率：4.95req/s] [内存消耗：5,549.25kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'clients',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.swcrm.com/admin/clients/index.html?companyname=%E5%AF%BF%E5%85%89&addtime=',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=1|3; thinkphp_show_page_trace=0|0; pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'companyname' => '寿光',
+  'addtime' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ D:\wamp64\www\swcrm\app\admin\controller\Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\swcrm\public/../app/admin\view\clients\index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-29T11:19:24+08:00 ] 127.0.0.1 GET www.swcrm.com/admin/clients/index.html?companyname=%E5%AF%BF%E5%85%89&addtime=
+[运行时间：0.652200s] [吞吐率：1.53req/s] [内存消耗：5,831.16kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp64\www\swcrm\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'clients',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.swcrm.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.swcrm.com/admin/clients/index.html?companyname=%E5%AF%BF%E5%85%89&addtime=',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=1|3; thinkphp_show_page_trace=0|0; pgv_pvi=928733184; PHPSESSID=oh1nr1bhpcdnhdm2tjjqfa2hs5; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'companyname' => '寿光',
+  'addtime' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\admin\controller\Clients->index[ D:\wamp64\www\swcrm\app\admin\controller\Clients.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\swcrm\public/../app/admin\view\clients\index.html [ array (
+  0 => 'client_list',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
