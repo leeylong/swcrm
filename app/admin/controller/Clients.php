@@ -20,7 +20,7 @@ class Clients extends Base
         $condition['status']          = ['neq',-1];
         $condition['private']         = ['eq',1];
 
-        if($request->param('addtime')){//如果有时间传入则调用函数以返回时间范围（某月的第一天和最后一天）
+        if($request->param('addtime')){//如果有时间传入则调用函数以返回时间范围（某月的第一天和最后一天）  
             $timeRange = getFirstLastDay($request->param('addtime'));
             $timeRange['ori'] = $request->param('addtime');
         }else{
@@ -38,7 +38,7 @@ class Clients extends Base
         ->where('saler','in',[Session::get('adminUser.admin_id'),0,])
         ->where('addtime','between time',[$timeRange["first"],$timeRange["last"]])
         ->order('tuijian desc,updatetime desc,client_id desc')
-        ->paginate(15);//获取本页数据
+        ->paginate(30);//获取本页数据
 
         $count = $clients->where($condition)->count();//获取数据总数
         // dump($clients::getLastSql());
@@ -126,7 +126,7 @@ class Clients extends Base
         $clients = new ClientsModel;
         $clients_list = $clients->all();
 
-        $list = $clients->where($condition)->order('updatetime desc,client_id desc')->paginate(15);//获取本页数据
+        $list = $clients->where($condition)->order('client_id desc')->paginate(30);//获取本页数据
         $count = $clients->where($condition)->count();//获取数据总数
         foreach($list as $k=>$val){
             $mes = $val->messages()->order('updatetime desc')->find();
